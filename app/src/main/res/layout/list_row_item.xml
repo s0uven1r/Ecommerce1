@@ -43,6 +43,7 @@
             android:layout_alignRight="@+id/row_title"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
+            android:focusable="false"
             />
 
     </RelativeLayout>

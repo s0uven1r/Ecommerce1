@@ -1,5 +1,8 @@
 package project.ecommerce.com.technozlife.binay.ecommerce1;
 
+import android.media.Image;
+import android.widget.Button;
+
 import java.util.ArrayList;
 
 /**
@@ -58,5 +61,19 @@ public class Data {
      public int ImageId;
      public String title;
 
+     public int getImageId() {
+         return ImageId;
+     }
 
+     public String getTitle() {
+         return title;
+     }
+
+     public void setImageId(int imageId) {
+         ImageId = imageId;
+     }
+
+     public void setTitle(String title) {
+         this.title = title;
+     }
  }
